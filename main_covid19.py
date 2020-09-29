@@ -12,8 +12,8 @@ print('Total deaths in India:',df_india['New deaths'].sum())
 print('Total recoveries in India:', df_india['New recovered'].sum())
 print('Total deaths in Indian States:',df_india.groupby(by=['Name of State / UT']).agg({'New deaths':'sum'}))
 
-# print('#############################################################################################################')
-#Dates v/s deaths
+# # print('#############################################################################################################')
+# #Dates v/s deaths
 
 
 print('Total deaths in India till 6 aug 2020:',df['Deaths'].sum())
@@ -21,9 +21,9 @@ p = sns.set_palette('Reds_d')
 sns.lineplot(x='dates', y='Deaths',marker='d', data=df, palette=p)
 plt.show()
 
-# print('#############################################################################################################')
-
-#Dates v/s recovered
+# # print('#############################################################################################################')
+#
+# #Dates v/s recovered
 
 
 print('Total recovered in India till 6 aug 2020:',df['Recovered'].sum())
@@ -31,8 +31,8 @@ p = sns.set_palette('Greens_d')
 sns.lineplot(x='dates', y='Recovered',marker='d', data=df, palette=p)
 plt.show()
 
-# print('#############################################################################################################')
-#Dates v/s cases
+# # print('#############################################################################################################')
+# #Dates v/s cases
 
 
 print('Total new cases in India till 6 aug 2020:',df['New case'].sum())
@@ -40,7 +40,7 @@ p = sns.set_palette('Blues_d')
 sns.lineplot(x='dates', y='New case',marker='d', data=df, palette=p)
 plt.show()
 
-# print('#############################################################################################################')
+# # print('#############################################################################################################')
 # In one subplot dates v/s cases, recovered and deaths
 
 f,axes=plt.subplots(3,figsize=(7, 14))
@@ -52,8 +52,8 @@ plt.setp(axes)
 plt.tight_layout()
 
 plt.show()
-# print('#############################################################################################################')
-# recovery rate
+# # print('#############################################################################################################')
+# # recovery rate
 p = sns.set_palette("Greens_d")
 df = df[:-1]
 
@@ -70,7 +70,7 @@ print("Date rate in particular date till august 2020",df)
 sns.lineplot(x='dates', y='death rate', data=df,palette=q, marker='D', markeredgecolor='black').set_title('Death Rate in India')
 plt.show()
 
-# print('#############################################################################################################')
+# # print('#############################################################################################################')
 
 # Pieplot comparisons
 piedf = pd.DataFrame({"Overall":["Death", "Recovered", "Overall_Case","Active_Case"],
@@ -84,7 +84,7 @@ plt.pie(value,labels=overall,explode=Explode,colors=color,shadow=True,autopct='%
 plt.title("Death v/s Recovered v/s Overall v/s Active cases in Percentage")
 plt.show()
 
-# print('#############################################################################################################')
+# # print('#############################################################################################################')
 #Symptoms for coronavirus
 s = pd.read_excel('./datasets/Symptoms.xlsx')
 sns.set_theme(style="whitegrid")
@@ -95,8 +95,8 @@ ax = sns.barplot(x='Percentage',y='Symptom',data=s,palette="mako",ax=axes)
 ax.set(xlabel='Percentages', ylabel='Symptoms', title='Symptoms-percentages of covid')
 plt.show()
 
-# print('#############################################################################################################')
-# Comparisons
+# # print('#############################################################################################################')
+# # Comparisons
 sns.set_theme(style='white')
 sns.lineplot(x="New case",y="Deaths",marker='D',markeredgecolor='black',data=df,color='Red').set_title('Newly infected v/s newly deaths')
 plt.show()
@@ -109,4 +109,15 @@ plt.show()
 d = pd.read_excel('./datasets/IndiaAgeGroupDetails.xlsx')
 sns.barplot(x='AgeGroup',y='TotalCases',data=d,palette='rocket').set_title('Cases in different age group in India')
 plt.show()
-
+# print('#############################################################################################################')
+#States and testings
+df = pd.read_excel('./datasets/Statetesting.xlsx')
+palette=sns.color_palette("tab20b")
+sns.set_theme(style="darkgrid")
+f,axes=plt.subplots(figsize=(14,7))
+a=sns.barplot(y="States",x="Testing",data=df,ax=axes,palette=palette,edgecolor=".3",ci="sd")
+a.set(xlabel='Numbers', ylabel='States', title='Testing of covid-19 in each States')
+plt.tight_layout()
+#a.set_xticklabels(a.get_xticklabels(), rotation=75, ha="right",fontsize=10)"to set x labels"
+plt.show()
+# print('#############################################################################################################')
