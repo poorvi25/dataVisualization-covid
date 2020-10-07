@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b0c1e6999c844e9b88823035ca43a209 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b0c1e6999c844e9b88823035ca43a209" ></div>
+        
+</body>
+<script>    
+    
+            var map_b0c1e6999c844e9b88823035ca43a209 = L.map(
+                "map_b0c1e6999c844e9b88823035ca43a209",
+                {
+                    center: [20.0, 70.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3.75,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c14a132c39a341b3884de960f7bd54ff = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+            var circle_marker_245868fb2a6047fea5c9a49a808a0c0a = L.circleMarker(
+                [11.66702557, 92.73598262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_7be01bc3777f4da587d1350bbe7b3631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1264010d536464fb8d28f1a1317ff8e = $(`<div id="html_c1264010d536464fb8d28f1a1317ff8e" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Andaman and nicobar <br><strong>Total Cases</strong>3104<br></div>`)[0];
+            popup_7be01bc3777f4da587d1350bbe7b3631.setContent(html_c1264010d536464fb8d28f1a1317ff8e);
+        
+
+        circle_marker_245868fb2a6047fea5c9a49a808a0c0a.bindPopup(popup_7be01bc3777f4da587d1350bbe7b3631)
+        ;
+
+        
+    
+    
+            var circle_marker_997a32b9b9464053afa587830b1bf0e4 = L.circleMarker(
+                [14.7504291, 78.57002559],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 65, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_7206ace826af478fab82eb6855fda4f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81d0bfac0cc94391b2e06d4363212149 = $(`<div id="html_81d0bfac0cc94391b2e06d4363212149" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Andhra pradesh<br><strong>Total Cases</strong>424767<br></div>`)[0];
+            popup_7206ace826af478fab82eb6855fda4f8.setContent(html_81d0bfac0cc94391b2e06d4363212149);
+        
+
+        circle_marker_997a32b9b9464053afa587830b1bf0e4.bindPopup(popup_7206ace826af478fab82eb6855fda4f8)
+        ;
+
+        
+    
+    
+            var circle_marker_814bc33d609f4acc9cd1ed03af0fd948 = L.circleMarker(
+                [27.10039878, 93.61660071],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_81ee1e1018f74cb090f024a199a1c7f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32488bba0b4948e2897b56df37e0bc1d = $(`<div id="html_32488bba0b4948e2897b56df37e0bc1d" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Arunachal pradesh <br><strong>Total Cases</strong>4034<br></div>`)[0];
+            popup_81ee1e1018f74cb090f024a199a1c7f2.setContent(html_32488bba0b4948e2897b56df37e0bc1d);
+        
+
+        circle_marker_814bc33d609f4acc9cd1ed03af0fd948.bindPopup(popup_81ee1e1018f74cb090f024a199a1c7f2)
+        ;
+
+        
+    
+    
+            var circle_marker_d0e105af1346422bb32026891b338964 = L.circleMarker(
+                [26.7499809, 94.21666744],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 16, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_e403fde41ebc4203a0a0b4fc7b74e1ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae39909765c64fc78537789cca7c86f6 = $(`<div id="html_ae39909765c64fc78537789cca7c86f6" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Assam <br><strong>Total Cases</strong>105775<br></div>`)[0];
+            popup_e403fde41ebc4203a0a0b4fc7b74e1ff.setContent(html_ae39909765c64fc78537789cca7c86f6);
+        
+
+        circle_marker_d0e105af1346422bb32026891b338964.bindPopup(popup_e403fde41ebc4203a0a0b4fc7b74e1ff)
+        ;
+
+        
+    
+    
+            var circle_marker_1e1a8c1ba2d6498dad8ad5ca0be48d2b = L.circleMarker(
+                [25.78541445, 87.4799727],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_9f708027f1484460a2e2a00261f6485a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ec4b1de01204dfd9214dd6950d58bce = $(`<div id="html_3ec4b1de01204dfd9214dd6950d58bce" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Bihar <br><strong>Total Cases</strong>135013<br></div>`)[0];
+            popup_9f708027f1484460a2e2a00261f6485a.setContent(html_3ec4b1de01204dfd9214dd6950d58bce);
+        
+
+        circle_marker_1e1a8c1ba2d6498dad8ad5ca0be48d2b.bindPopup(popup_9f708027f1484460a2e2a00261f6485a)
+        ;
+
+        
+    
+    
+            var circle_marker_380622d324e94ad09e49a9f348e62e6c = L.circleMarker(
+                [30.71999697, 76.78000565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_df34734be9c446759fb7f027662c4864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a16ea57a16242eda6db48c6289f2e73 = $(`<div id="html_4a16ea57a16242eda6db48c6289f2e73" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Chandigarh <br><strong>Total Cases</strong>4155<br></div>`)[0];
+            popup_df34734be9c446759fb7f027662c4864.setContent(html_4a16ea57a16242eda6db48c6289f2e73);
+        
+
+        circle_marker_380622d324e94ad09e49a9f348e62e6c.bindPopup(popup_df34734be9c446759fb7f027662c4864)
+        ;
+
+        
+    
+    
+            var circle_marker_2b8e1a1a2c1a4be3b84e96aac216784c = L.circleMarker(
+                [22.09042035, 82.15998734],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_91fdfff19bb74c2495d94257ba25b559 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_843a6c8d1ce2430583e3305aa12cb438 = $(`<div id="html_843a6c8d1ce2430583e3305aa12cb438" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Chhattisgarh <br><strong>Total Cases</strong>30092<br></div>`)[0];
+            popup_91fdfff19bb74c2495d94257ba25b559.setContent(html_843a6c8d1ce2430583e3305aa12cb438);
+        
+
+        circle_marker_2b8e1a1a2c1a4be3b84e96aac216784c.bindPopup(popup_91fdfff19bb74c2495d94257ba25b559)
+        ;
+
+        
+    
+    
+            var circle_marker_744f704b141f45118a7e9038ed7a1240 = L.circleMarker(
+                [20.26657819, 73.0166178],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_b76a6ff301794d04b0886335a29e9b93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c34f4674a394710865df444d77b956f = $(`<div id="html_7c34f4674a394710865df444d77b956f" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Dadra and nagar haveli <br><strong>Total Cases</strong>2340<br></div>`)[0];
+            popup_b76a6ff301794d04b0886335a29e9b93.setContent(html_7c34f4674a394710865df444d77b956f);
+        
+
+        circle_marker_744f704b141f45118a7e9038ed7a1240.bindPopup(popup_b76a6ff301794d04b0886335a29e9b93)
+        ;
+
+        
+    
+    
+            var circle_marker_208008e6376d4c80a512cede0fa92ca8 = L.circleMarker(
+                [28.6699929, 77.23000403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 26, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_b6487b9dae0a4a5787e5a47f04326700 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52d3df0428624a3cb560a821d402448a = $(`<div id="html_52d3df0428624a3cb560a821d402448a" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Delhi<br><strong>Total Cases</strong>173390<br></div>`)[0];
+            popup_b6487b9dae0a4a5787e5a47f04326700.setContent(html_52d3df0428624a3cb560a821d402448a);
+        
+
+        circle_marker_208008e6376d4c80a512cede0fa92ca8.bindPopup(popup_b6487b9dae0a4a5787e5a47f04326700)
+        ;
+
+        
+    
+    
+            var circle_marker_1a5b01128f0940e38316ed6d58aacaed = L.circleMarker(
+                [15.491997, 73.81800065],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_3c389caae41145298ef8f8ae714004ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3783e5d6cdb344ed8c5e6e408d7dc8aa = $(`<div id="html_3783e5d6cdb344ed8c5e6e408d7dc8aa" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Goa <br><strong>Total Cases</strong>17004<br></div>`)[0];
+            popup_3c389caae41145298ef8f8ae714004ad.setContent(html_3783e5d6cdb344ed8c5e6e408d7dc8aa);
+        
+
+        circle_marker_1a5b01128f0940e38316ed6d58aacaed.bindPopup(popup_3c389caae41145298ef8f8ae714004ad)
+        ;
+
+        
+    
+    
+            var circle_marker_80423413f0614fe1aeb14e830f28bb5a = L.circleMarker(
+                [28.45000633, 77.01999101],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_8b6788335e2b46dda61712e2e90304c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3c1a3eb2170431e9c51c20eedd06276 = $(`<div id="html_a3c1a3eb2170431e9c51c20eedd06276" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Haryana<br><strong>Total Cases</strong>63282<br></div>`)[0];
+            popup_8b6788335e2b46dda61712e2e90304c0.setContent(html_a3c1a3eb2170431e9c51c20eedd06276);
+        
+
+        circle_marker_80423413f0614fe1aeb14e830f28bb5a.bindPopup(popup_8b6788335e2b46dda61712e2e90304c0)
+        ;
+
+        
+    
+    
+            var circle_marker_f2b500e072db422eae4fa60825f11705 = L.circleMarker(
+                [31.10002545, 77.16659704],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_ce64057820ab4f948589da836480610a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8f6ecae1ffb475f9de1a62b75cfd812 = $(`<div id="html_d8f6ecae1ffb475f9de1a62b75cfd812" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Himachal pradesh <br><strong>Total Cases</strong>5945<br></div>`)[0];
+            popup_ce64057820ab4f948589da836480610a.setContent(html_d8f6ecae1ffb475f9de1a62b75cfd812);
+        
+
+        circle_marker_f2b500e072db422eae4fa60825f11705.bindPopup(popup_ce64057820ab4f948589da836480610a)
+        ;
+
+        
+    
+    
+            var circle_marker_c40648742c9145b3bea39c5636c68216 = L.circleMarker(
+                [33.45, 76.24],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_d9861a1cc4d44962b3f8e160a3419bec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1096e8008525427ea47cde510c41e46f = $(`<div id="html_1096e8008525427ea47cde510c41e46f" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Union territory of jammu and kashmir<br><strong>Total Cases</strong>37163<br></div>`)[0];
+            popup_d9861a1cc4d44962b3f8e160a3419bec.setContent(html_1096e8008525427ea47cde510c41e46f);
+        
+
+        circle_marker_c40648742c9145b3bea39c5636c68216.bindPopup(popup_d9861a1cc4d44962b3f8e160a3419bec)
+        ;
+
+        
+    
+    
+            var circle_marker_80d690fb4bba4c02a6f4c2c05f15f194 = L.circleMarker(
+                [23.80039349, 86.41998572],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_c8469dcd264d4939b6bd81e6a85bf44f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0cdfa1cd7ed4203a13babb1c3e67e58 = $(`<div id="html_a0cdfa1cd7ed4203a13babb1c3e67e58" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Jharkhand <br><strong>Total Cases</strong>38435<br></div>`)[0];
+            popup_c8469dcd264d4939b6bd81e6a85bf44f.setContent(html_a0cdfa1cd7ed4203a13babb1c3e67e58);
+        
+
+        circle_marker_80d690fb4bba4c02a6f4c2c05f15f194.bindPopup(popup_c8469dcd264d4939b6bd81e6a85bf44f)
+        ;
+
+        
+    
+    
+            var circle_marker_2deda6d0472c400ca2df256db5bb2701 = L.circleMarker(
+                [12.57038129, 76.91999711],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 51, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_4fd46c4206df4d1cbd2c3402262e80a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a34d2f2357044958bda018ba0a76f6e = $(`<div id="html_3a34d2f2357044958bda018ba0a76f6e" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Karnataka<br><strong>Total Cases</strong>335928<br></div>`)[0];
+            popup_4fd46c4206df4d1cbd2c3402262e80a2.setContent(html_3a34d2f2357044958bda018ba0a76f6e);
+        
+
+        circle_marker_2deda6d0472c400ca2df256db5bb2701.bindPopup(popup_4fd46c4206df4d1cbd2c3402262e80a2)
+        ;
+
+        
+    
+    
+            var circle_marker_ff23c3bb27884020bd82afe0ebaca155 = L.circleMarker(
+                [8.900372741, 76.56999263],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 11, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_08a00993236a4e898280b71309787a2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08af586b4f3841e592f8d4eb99813ac2 = $(`<div id="html_08af586b4f3841e592f8d4eb99813ac2" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Kerala<br><strong>Total Cases</strong>73856<br></div>`)[0];
+            popup_08a00993236a4e898280b71309787a2f.setContent(html_08af586b4f3841e592f8d4eb99813ac2);
+        
+
+        circle_marker_ff23c3bb27884020bd82afe0ebaca155.bindPopup(popup_08a00993236a4e898280b71309787a2f)
+        ;
+
+        
+    
+    
+            var circle_marker_b883570b090846208d8e64d7b1212854 = L.circleMarker(
+                [10.56257331, 72.63686717],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_0b94c56cb0414471be5bc656cc50ff98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c956b59b45764f0f8bc3d41f5224c2ab = $(`<div id="html_c956b59b45764f0f8bc3d41f5224c2ab" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Lakshadweep <br><strong>Total Cases</strong>0<br></div>`)[0];
+            popup_0b94c56cb0414471be5bc656cc50ff98.setContent(html_c956b59b45764f0f8bc3d41f5224c2ab);
+        
+
+        circle_marker_b883570b090846208d8e64d7b1212854.bindPopup(popup_0b94c56cb0414471be5bc656cc50ff98)
+        ;
+
+        
+    
+    
+            var circle_marker_0c621657ec7f4f2d946d229aedca611a = L.circleMarker(
+                [21.30039105, 76.13001949],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_9d550e5891274b79ad7d56b84ed01b5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a7f5da2698047108705d298bef06139 = $(`<div id="html_1a7f5da2698047108705d298bef06139" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Madhya pradesh <br><strong>Total Cases</strong>62443<br></div>`)[0];
+            popup_9d550e5891274b79ad7d56b84ed01b5e.setContent(html_1a7f5da2698047108705d298bef06139);
+        
+
+        circle_marker_0c621657ec7f4f2d946d229aedca611a.bindPopup(popup_9d550e5891274b79ad7d56b84ed01b5e)
+        ;
+
+        
+    
+    
+            var circle_marker_aacf2963a7794daa82601892b3a6e2b4 = L.circleMarker(
+                [19.25023195, 73.16017493],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 120, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_0ae99711009e43b6bc7a44dbb598a8f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13c5a4c4d5af43039724c8d78808856c = $(`<div id="html_13c5a4c4d5af43039724c8d78808856c" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Maharashtra<br><strong>Total Cases</strong>780689<br></div>`)[0];
+            popup_0ae99711009e43b6bc7a44dbb598a8f1.setContent(html_13c5a4c4d5af43039724c8d78808856c);
+        
+
+        circle_marker_aacf2963a7794daa82601892b3a6e2b4.bindPopup(popup_0ae99711009e43b6bc7a44dbb598a8f1)
+        ;
+
+        
+    
+    
+            var circle_marker_da847864ccc24bd2aa3ec683a3f56d88 = L.circleMarker(
+                [24.79997072, 93.95001705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_f6281da2598a4e759892e06896a6e7d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf27bc92c92d43eeb849179a4ae5705f = $(`<div id="html_cf27bc92c92d43eeb849179a4ae5705f" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Manipur <br><strong>Total Cases</strong>6112<br></div>`)[0];
+            popup_f6281da2598a4e759892e06896a6e7d4.setContent(html_cf27bc92c92d43eeb849179a4ae5705f);
+        
+
+        circle_marker_da847864ccc24bd2aa3ec683a3f56d88.bindPopup(popup_f6281da2598a4e759892e06896a6e7d4)
+        ;
+
+        
+    
+    
+            var circle_marker_9e832380ff824055a2340f80d3583a98 = L.circleMarker(
+                [25.57049217, 91.8800142],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_8aa7ff8f48f249019345a9f061449656 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd9f6aa833304141886bb9c1634804ec = $(`<div id="html_cd9f6aa833304141886bb9c1634804ec" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Meghalaya <br><strong>Total Cases</strong>2343<br></div>`)[0];
+            popup_8aa7ff8f48f249019345a9f061449656.setContent(html_cd9f6aa833304141886bb9c1634804ec);
+        
+
+        circle_marker_9e832380ff824055a2340f80d3583a98.bindPopup(popup_8aa7ff8f48f249019345a9f061449656)
+        ;
+
+        
+    
+    
+            var circle_marker_a571afaeeaf04447a4886930ee5a9e25 = L.circleMarker(
+                [23.71039899, 92.72001461],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_744fd41615b14998bef619db7188ad8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75d0ea192aeb43eda8bb614374339900 = $(`<div id="html_75d0ea192aeb43eda8bb614374339900" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Mizoram <br><strong>Total Cases</strong>1008<br></div>`)[0];
+            popup_744fd41615b14998bef619db7188ad8c.setContent(html_75d0ea192aeb43eda8bb614374339900);
+        
+
+        circle_marker_a571afaeeaf04447a4886930ee5a9e25.bindPopup(popup_744fd41615b14998bef619db7188ad8c)
+        ;
+
+        
+    
+    
+            var circle_marker_4578f90e91ea42a2b8efd3d4b6d9856c = L.circleMarker(
+                [25.6669979, 94.11657019],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_da5f12b06fa64e45961e113308351a4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea2e4f865c01408b83340086176ef8c9 = $(`<div id="html_ea2e4f865c01408b83340086176ef8c9" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Nagaland <br><strong>Total Cases</strong>3922<br></div>`)[0];
+            popup_da5f12b06fa64e45961e113308351a4f.setContent(html_ea2e4f865c01408b83340086176ef8c9);
+        
+
+        circle_marker_4578f90e91ea42a2b8efd3d4b6d9856c.bindPopup(popup_da5f12b06fa64e45961e113308351a4f)
+        ;
+
+        
+    
+    
+            var circle_marker_da7f32f7dfa34cecafe3ac59e908702f = L.circleMarker(
+                [19.82042971, 85.90001746],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_151b6d77823c45f494b4b92a8261dafe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4523c8463e4649548cd18791a168755c = $(`<div id="html_4523c8463e4649548cd18791a168755c" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Orissa <br><strong>Total Cases</strong>100934<br></div>`)[0];
+            popup_151b6d77823c45f494b4b92a8261dafe.setContent(html_4523c8463e4649548cd18791a168755c);
+        
+
+        circle_marker_da7f32f7dfa34cecafe3ac59e908702f.bindPopup(popup_151b6d77823c45f494b4b92a8261dafe)
+        ;
+
+        
+    
+    
+            var circle_marker_21763c746a7846f3b3c2d2c201552cd3 = L.circleMarker(
+                [11.93499371, 79.83000037],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_efd666e8bab7447bbe67f036cc7006e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5774128a9445ff8a999c3fd9530fcd = $(`<div id="html_7c5774128a9445ff8a999c3fd9530fcd" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Puducherry <br><strong>Total Cases</strong>14127<br></div>`)[0];
+            popup_efd666e8bab7447bbe67f036cc7006e3.setContent(html_7c5774128a9445ff8a999c3fd9530fcd);
+        
+
+        circle_marker_21763c746a7846f3b3c2d2c201552cd3.bindPopup(popup_efd666e8bab7447bbe67f036cc7006e3)
+        ;
+
+        
+    
+    
+            var circle_marker_868458c99144470b860a604b584e1702 = L.circleMarker(
+                [31.51997398, 75.98000281],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_c32102ed7bac4b7783d8828b23f4796c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1de8cabaace34c408375bba76fb4c671 = $(`<div id="html_1de8cabaace34c408375bba76fb4c671" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Punjab<br><strong>Total Cases</strong>52526<br></div>`)[0];
+            popup_c32102ed7bac4b7783d8828b23f4796c.setContent(html_1de8cabaace34c408375bba76fb4c671);
+        
+
+        circle_marker_868458c99144470b860a604b584e1702.bindPopup(popup_c32102ed7bac4b7783d8828b23f4796c)
+        ;
+
+        
+    
+    
+            var circle_marker_abeb4e30c1d345568a1f8e6ef6d47db6 = L.circleMarker(
+                [26.44999921, 74.63998124],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_5e8cde745205483887d5871df4dcab84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e09e4f74f2e549d29ae6abd19b7eeb62 = $(`<div id="html_e09e4f74f2e549d29ae6abd19b7eeb62" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Rajasthan<br><strong>Total Cases</strong>80227<br></div>`)[0];
+            popup_5e8cde745205483887d5871df4dcab84.setContent(html_e09e4f74f2e549d29ae6abd19b7eeb62);
+        
+
+        circle_marker_abeb4e30c1d345568a1f8e6ef6d47db6.bindPopup(popup_5e8cde745205483887d5871df4dcab84)
+        ;
+
+        
+    
+    
+            var circle_marker_8cc2f223817940b58a925288e7dbe613 = L.circleMarker(
+                [27.3333303, 88.6166475],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_b49175d0315c440fb886e0570222a809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beea0dea65ee42c3a8d75d5da33fd620 = $(`<div id="html_beea0dea65ee42c3a8d75d5da33fd620" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Sikkim <br><strong>Total Cases</strong>1627<br></div>`)[0];
+            popup_b49175d0315c440fb886e0570222a809.setContent(html_beea0dea65ee42c3a8d75d5da33fd620);
+        
+
+        circle_marker_8cc2f223817940b58a925288e7dbe613.bindPopup(popup_b49175d0315c440fb886e0570222a809)
+        ;
+
+        
+    
+    
+            var circle_marker_747a7d6f54f1422aaaa437633bbc57b9 = L.circleMarker(
+                [18.1124, 79.0193],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_b11641f004bb4c24b7653c42243f1c69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_747744d886a94cefa164a66bb2a4bcab = $(`<div id="html_747744d886a94cefa164a66bb2a4bcab" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Telengana<br><strong>Total Cases</strong>123090<br></div>`)[0];
+            popup_b11641f004bb4c24b7653c42243f1c69.setContent(html_747744d886a94cefa164a66bb2a4bcab);
+        
+
+        circle_marker_747a7d6f54f1422aaaa437633bbc57b9.bindPopup(popup_b11641f004bb4c24b7653c42243f1c69)
+        ;
+
+        
+    
+    
+            var circle_marker_c857df4565214fe6a8c85029e85e954a = L.circleMarker(
+                [12.92038576, 79.15004187],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 64, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_ca8c3feaeea544d6b472bfdd41b6529f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2d8a5840e3248509fe1e6a95730a8e9 = $(`<div id="html_c2d8a5840e3248509fe1e6a95730a8e9" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Tamil nadu<br><strong>Total Cases</strong>422085<br></div>`)[0];
+            popup_ca8c3feaeea544d6b472bfdd41b6529f.setContent(html_c2d8a5840e3248509fe1e6a95730a8e9);
+        
+
+        circle_marker_c857df4565214fe6a8c85029e85e954a.bindPopup(popup_ca8c3feaeea544d6b472bfdd41b6529f)
+        ;
+
+        
+    
+    
+            var circle_marker_c7891a65e6314689994ff83c67ac81da = L.circleMarker(
+                [23.83540428, 91.27999914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_a278aa9fcb28433fbc02b1e44725b825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f12a9a67dde49f1a205e4b182591755 = $(`<div id="html_8f12a9a67dde49f1a205e4b182591755" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Tripura <br><strong>Total Cases</strong>11323<br></div>`)[0];
+            popup_a278aa9fcb28433fbc02b1e44725b825.setContent(html_8f12a9a67dde49f1a205e4b182591755);
+        
+
+        circle_marker_c7891a65e6314689994ff83c67ac81da.bindPopup(popup_a278aa9fcb28433fbc02b1e44725b825)
+        ;
+
+        
+    
+    
+            var circle_marker_2c16f716239f4d068d14288a68542bad = L.circleMarker(
+                [27.59998069, 78.05000565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 34, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_4c3b71a97dde4bc9b016a5d054cf5ccc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff7fb47129de452b85fd19714ad66a39 = $(`<div id="html_ff7fb47129de452b85fd19714ad66a39" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Uttar pradesh<br><strong>Total Cases</strong>225632<br></div>`)[0];
+            popup_4c3b71a97dde4bc9b016a5d054cf5ccc.setContent(html_ff7fb47129de452b85fd19714ad66a39);
+        
+
+        circle_marker_2c16f716239f4d068d14288a68542bad.bindPopup(popup_4c3b71a97dde4bc9b016a5d054cf5ccc)
+        ;
+
+        
+    
+    
+            var circle_marker_677a06c63a634f31b10ce3a18df03577 = L.circleMarker(
+                [30.32040895, 78.05000565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_59952dd088004903a6615e732444f7fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4c49689ed674adb9c5c7665b37f8857 = $(`<div id="html_c4c49689ed674adb9c5c7665b37f8857" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Uttarakhand<br><strong>Total Cases</strong>19235<br></div>`)[0];
+            popup_59952dd088004903a6615e732444f7fe.setContent(html_c4c49689ed674adb9c5c7665b37f8857);
+        
+
+        circle_marker_677a06c63a634f31b10ce3a18df03577.bindPopup(popup_59952dd088004903a6615e732444f7fe)
+        ;
+
+        
+    
+    
+            var circle_marker_8b4d3bed403844dabd2d0b49f7f6625a = L.circleMarker(
+                [22.58039044, 88.32994665],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "radius": 24, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_09cbeb5908414da7bd7099cdcc39ea15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b751512721448a4b648f6159070fcfd = $(`<div id="html_1b751512721448a4b648f6159070fcfd" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:West bengal <br><strong>Total Cases</strong>159785<br></div>`)[0];
+            popup_09cbeb5908414da7bd7099cdcc39ea15.setContent(html_1b751512721448a4b648f6159070fcfd);
+        
+
+        circle_marker_8b4d3bed403844dabd2d0b49f7f6625a.bindPopup(popup_09cbeb5908414da7bd7099cdcc39ea15)
+        ;
+
+        
+    
+    
+            var circle_marker_5d3ee9a2e9494f7896fb5701ee3a3c6f = L.circleMarker(
+                [34.1, 77.34],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.3, "stroke": true, "weight": 3}
+            ).addTo(map_b0c1e6999c844e9b88823035ca43a209);
+        
+    
+        var popup_18ed0be7f3b546188e4e4aaa269ab552 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23629cd1eb32457197ee4f0b65c54a3a = $(`<div id="html_23629cd1eb32457197ee4f0b65c54a3a" style="width: 100.0%; height: 100.0%;"><strong>State</strong>:Union territory of ladakh<br><strong>Total Cases</strong>2638<br></div>`)[0];
+            popup_18ed0be7f3b546188e4e4aaa269ab552.setContent(html_23629cd1eb32457197ee4f0b65c54a3a);
+        
+
+        circle_marker_5d3ee9a2e9494f7896fb5701ee3a3c6f.bindPopup(popup_18ed0be7f3b546188e4e4aaa269ab552)
+        ;
+
+        
+    
+</script>
